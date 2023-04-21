@@ -1,0 +1,30 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1145px) {
+    .card {
+        width: 350px;
+    }
+    .wrapper {
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 800px) {
+    nav {
+        display: none;
+    }
+    .fa-bars {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 790px) {
+    .card {
+        width: 400px;
+    }
+}

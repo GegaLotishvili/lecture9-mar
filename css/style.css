@@ -1,3 +1,64 @@
-h2 {
-    color: green;
+header {
+    height: 80px;
+    background-color: lightcoral;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.myheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    font-size: 50px;
+    color: aquamarine;
+}
+
+nav {
+    width: 500px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li a {
+    color: aquamarine;
+    font-size: 22px;
+}
+
+.fa-bars {
+    font-size: 36px;
+    display: none;
+}
+
+/* section 1 */
+
+.s-1 {
+    background-color: aquamarine;
+    height: 800px;
+    padding-top: 80px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    width: 250px;
+}
+
+.card img {
+    width: 100%;
 }
